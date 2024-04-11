@@ -2,6 +2,9 @@
     max-width: 100px;
     height: auto;
 } */
+body{
+    background-color: #cad2c5 !important;
+}
 .navbar-brand img {
     max-width: 40px;
     height: auto;
@@ -9,8 +12,16 @@
 
 .navbar {
     background-color: #2f3d46;
+    height: 50px;
 }
 
+.navbar-text{
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    
+}
 .form-control {
     background-color: #353535 !important;
     justify-content: center !important;
@@ -25,6 +36,7 @@
 .searchtile{
     width: 600px !important;
     height: auto;
+    padding: 50px 30px;
 }
 .tab {
     background-color: #353535;

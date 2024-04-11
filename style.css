@@ -1,0 +1,105 @@
+/* .navbar-brand img.git {
+    max-width: 100px;
+    height: auto;
+} */
+.navbar-brand img {
+    max-width: 40px;
+    height: auto;
+}
+
+.navbar {
+    background-color: #2f3d46;
+}
+
+.form-control {
+    background-color: #353535 !important;
+    justify-content: center !important;
+    width: 600px;
+    height: auto;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+}
+
+.tab {
+    background-color: #353535;
+    width: 250px;
+    height: 375pt;
+    border-radius: 12px;
+    padding-left: 50px;
+}
+
+.tabs {
+    display: flex;
+    justify-content: left;
+    padding: 30px;
+}
+
+.tabsone {
+    background-color: #353535;
+    width: 350px;
+    height: 150pt;
+    border-radius: 15px;
+}
+
+.tabss {
+    background-color: #353535;
+    width: 1000px;
+    height: 150pt;
+    border-radius: 15px;
+}
+
+.tiles {
+    padding-left: 50px;
+}
+
+.tiletab {
+    width: 250px;
+    height: 50px;
+    border-radius: 15px;
+}
+
+
+@media (max-width: 576px) {
+   
+    .form-control {
+        width: 100%;
+    }
+    .tabs {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .tab,
+    .tabsone {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .tabss {
+        width: 100%;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 991px) {
+   
+    .tabs {
+        justify-content: center;
+    }
+    .tab,
+    .tabsone {
+        width: 300px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+    .tabss {
+        width: 800px;
+    }
+}
+
+@media (min-width: 992px) {
+   
+    .tabs {
+        justify-content: flex-start;
+    }
+}
